@@ -1,6 +1,252 @@
-venv
-.env
-__pycache__/
+# Virtual Environments
 venv/
-__pycache__
+env/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
 
+# Environment Variables & Secrets
+.env
+.env.local
+.env.production
+.env.staging
+.env.development
+*.env
+secrets.json
+credentials.json
+api_keys.txt
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Configuration Files (if they contain sensitive data)
+config/
+config.json
+config.yaml
+config.yml
+settings.json
+user_config.json
+
+# Logs & Analytics
+logs/
+*.log
+log_*.txt
+debug.log
+error.log
+linkedin_bot.log
+application_log.log
+scraping_log.log
+analytics/
+reports/
+performance_data/
+
+# Browser & Playwright Data
+browser_data/
+playwright-report/
+test-results/
+downloads/
+screenshots/
+videos/
+traces/
+.playwright/
+
+# LinkedIn Data & Storage
+data/
+scraped_data/
+job_data/
+profile_data/
+connection_data/
+message_data/
+cv/
+resumes/
+cover_letters/
+application_history/
+*.json.backup
+user_profile.json
+linkedin_session.json
+scraped_jobs.json
+job_applications.json
+
+# AI & ML Models
+models/
+*.pkl
+*.model
+*.h5
+*.weights
+ai_cache/
+embeddings/
+vector_store/
+
+# Database Files
+*.db
+*.sqlite
+*.sqlite3
+database.db
+linkedin_bot.db
+
+# Cache & Temporary Files
+.cache/
+.tmp/
+temp/
+tmp/
+*.tmp
+*.temp
+cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE & Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Testing
+.tox/
+.nox/
+.coverage
+.pytest_cache/
+.coverage.*
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Documentation
+docs/_build/
+.readthedocs.yml
+site/
+
+# Package managers
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating System
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Security & Backup Files
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+backup/
+backups/
+*.backup
+*.bak
+
+# Personal Files
+personal_notes.txt
+todo.txt
+notes.md
+profile_pics/
+personal_data/
+user_photos/
+
+# Runtime & Process Files
+*.pid
+*.seed
+*.pid.lock
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype static type analyzer
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Specific to this LinkedIn Bot Project
+linkedin_cookies.json
+session_data/
+user_sessions/
+automation_history/
+engagement_metrics/
+performance_reports/
+linkedin_profiles/
+network_data/
+recruitment_data/
+job_alerts/
+application_status/
+email_templates/
+ai_generated_content/
+training_data/
+feature_flags.json
+experiments/
+ab_tests/
